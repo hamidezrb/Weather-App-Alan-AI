@@ -1,0 +1,140 @@
+:root {
+    --section-overlay: rgba(0, 0, 0, 0.7);
+    --background-overlay: rgba(0, 0, 0, 0.2)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-overlay);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Top  */
+
+.section {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: white;
+}
+
+.section__inputs, .section__temperature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--section-overlay);
+}
+
+.change_units {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 00.4rem;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.change_units:hover {
+    cursor: pointer;
+    background-color: lightgray;
+}
+
+.search-container {
+    position: relative;
+    border-radius: 30px;
+    padding: 3px 50px 3px 10px;
+    /* background-color: var(--section-overlay); */
+    background-color: #FFF;
+    width: 60%;
+  }
+  .search-box {
+    background-color: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    width: 100%;
+  }
+  .search-button {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 0;
+    color: black;
+    width: 35px;
+    height: 35px;
+    outline: 0;
+    cursor:pointer;
+  }
+
+.search-box:focus {
+    outline: none;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon>h3 {
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.temperature>h1 {
+    font-size: 60px;
+}
+
+
+
+.sky {
+    position: relative;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #03A9F4;
+}
+h2 {
+    font-weight: 300;
+    font-size: 2.25em;
+}
+
+h3 {
+    float: left;
+    margin-right: 33px;
+    color: #777;
+    font-weight: 400;
+    font-size: 1em;
+}
