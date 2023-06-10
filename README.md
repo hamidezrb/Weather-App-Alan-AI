@@ -4,9 +4,9 @@
 I Built a responsive weather app using React JS In which you will be able to search for a specific location in the world and it will display all the important weather details about your location. It can fetch current weather data from an open weather API and use Alan AI in my app which allows user instead of manually typing a city, simply ask Alan to fetch weather information about a city via voice command.Voice Communication is the feature of my app. There are many projects with the traditional search bar to search the weather report of the location but I thought of trying out something new. I tried integarting voice commands into this app so that it may facilitate user to use commands to search the weather report of any location.
 
 ## Alan AI :
-First, I create a new account in [Alan AI website](https://alan.app/) and I create a new project with the name alen_app. When click on Open Project it shows me Alan AI Studio:
-![Alan AI Studio](https://i.ibb.co/SVyK6Nh/Screenshot-2020-08-03-at-21-24-23.png)
+![WeatherApp](https://github.com/hamidezrb/Weather-App-Alan-AI/assets/108920011/e9df370b-1989-43e0-ba6a-53c3450c2e87)
 
+First, I create a new account in [Alan AI website](https://alan.app/) and I create a new project with the name alen_app. When click on Open Project it shows me Alan AI Studio,
 This is where we write Alan scripts that define how Alan will interact with our React app. When you click the Alan button on the bottom right corner of my app and ask it get me the weather in my specific location, Alan will respond back to you and display all the important weather details.
 
 
